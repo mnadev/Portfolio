@@ -1,0 +1,50 @@
+body{
+  font-family: Raleway;
+  width: 100%;
+  background-color:  #626567;
+}
+a{
+  color:   #6da008 !important;
+}
+a:hover{
+  color:  #a4ea18 !important;
+}
+a:link{
+  text-decoration: none;
+}
+.info{
+  padding-top: 50px;
+}
+.black{
+  background-color: black;
+}
+#about{
+  background-color:  #81c784;
+  margin-top: 50px;
+}
+#portfolio{
+  background-color: #26c6da;
+}
+#contact{
+  background-color:#ffffff;
+}
+footer{
+  color: white;
+}
+i{
+  padding: 5px;
+}
+.white-text{
+  color: white;
+}
+footer{
+  margin-bottom: -40px;
+}
+.full{
+  width:100%;
+}
+.image{
+  max-width: 270px;
+  max-height: 150px;
+}
+
