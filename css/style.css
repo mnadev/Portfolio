@@ -1,50 +1,35 @@
 body{
-  font-family: Raleway;
-  width: 100%;
-  background-color:  #626567;
+    font-family: Raleway;
+    width: 100%;
+    background-color: #b1d6a4;
+    color: white;
 }
 a{
-  color:   #6da008 !important;
+    color:  #b1d6a4 !important;
 }
 a:hover{
-  color:  #a4ea18 !important;
+    color:  #a4ea18 !important;
 }
 a:link{
-  text-decoration: none;
+    text-decoration: none;
 }
 .info{
-  padding-top: 50px;
+    padding-top: 50px;
 }
 .black{
-  background-color: black;
+    background-color: black;
 }
 #about{
-  background-color:  #81c784;
-  margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
-#portfolio{
-  background-color: #26c6da;
-}
-#contact{
-  background-color:#ffffff;
-}
-footer{
-  color: white;
+#education{
+    background-color: darkgrey;
+    font-family: 'Ubuntu', sans-serif;
 }
 i{
-  padding: 5px;
+    padding: 5px;
 }
-.white-text{
-  color: white;
+.jumbotron{
+    background-color: #4e4f51;
+    font-family: 'Ubuntu', sans-serif !important;
 }
-footer{
-  margin-bottom: -40px;
-}
-.full{
-  width:100%;
-}
-.image{
-  max-width: 270px;
-  max-height: 150px;
-}
-
