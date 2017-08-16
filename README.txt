@@ -1,2 +1,1 @@
-Portfolio
- 
+My online resume/portfolio. Hosted at mnadev.github.io.
