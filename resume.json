@@ -1,22 +1,29 @@
 {
   name: "Mohammad Nadeem",
-  lnkdin: "https://www.linkedin.com/in/mohammed-nadeem-a01714126",
+  lnkdin: "www.linkedin.com/in/mnad16",
   github: "https://github.com/mnadev",
   email: "mohammednadeem902@gmail.com",
   work: {
+    0: {
+      start: "June 2018",
+      end: "Aug 2018",
+      company: "iD Tech Camps",
+      position: "Instructor",
+      responsibilities: "Taught four different courses over the course of six weeks in order to cultivate student interest in programming and computer science. Taught Python, C++, Java, PyGame, Processing and Scratch. Created daily lesson plans for each course. "
+    },
     1: {
       start: "Sep 2016",
       end: "current",
       company: "Rutgers University",
-      position: "Lab Consultant",
-      responsibilities: "Ensured printers were all working and were filled. Ensured labs were clean. Provided technical assistance to students, and faculty when needed."
+      position: "Help Desk Consultant",
+      responsibilities: "Ensured all machines and printers were working correctly. Ensured labs were clean. Provided technical assistance to students, and faculty when needed."
     },
     2: {
       start: "Sep 2015",
       end: "Aug 2016",
       company: "Kumon Learning Center",
       position: "Teaching Assistant",
-      responsibilities: "Helped students who were having trouble with the subject matter. Ensured that all students were focused on their work. Ensured that students got the correct work. Ensured all work was returned to students in a timely manner."
+      responsibilities: "Helped students who were having trouble with the subject matter. Ensured that all students were focused on their work. Ensured all work was returned to students in a timely manner. "
     },
   },
   education: {
@@ -49,10 +56,18 @@
       language: "Javascript",
       start: "Aug 2017",
       info: "Created a Pebble Watch app to show Rutgers bus timings using Nextbus API and Pebble.js"
+    },
+    2: {
+      name: "Notifi.or",
+      platform: "Pebble",
+      language: "Javascript",
+      start: "Aug 2017",
+      info: "Created a Pebble Watch app to show Rutgers bus timings using Nextbus API and Pebble.js"
     }
+
   },
   skills: {
-    beginner: "Python, C, Bootstrap, jQuery",
-    intermediate: "Java, Javascript, HTML, CSS"
+    beginner: "C, Bootstrap, jQuery, Ruby",
+    intermediate: "Java, Javascript, HTML, CSS,Python"
   }
 }
