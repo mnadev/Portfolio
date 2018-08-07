@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+body{
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+  background-color:  #626567;
+}
+a{
+  color:   #6da008;
+}
+a:hover{
+  color:  #a4ea18 !important;
+}
+a:link{
+  text-decoration: none;
+}
+.info{
+  padding-top: 0;
+  padding-bottom: 10vh;
+}
+/*
+.content{
+  padding-bottom: 10vh;
+}*/
+.black{
+  background-color: black;
+}
+#information {
+   background-image: url("https://www.publicdomainpictures.net/pictures/80000/velka/leaves-1394157252hwc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-color: #f5b11e;
+  opacity: 0.45;
+  height:100vh;
+  color:white;
+  padding: 0;
+}
+#about{
+  background-color:  #b7d68f;
+  margin-top: 50px;
+}
+#work{
+   background-color:  white;
+}
+#edu{
+ background-color:  #b7d68f;
+}
+#portfolio{
+  background-color:white;
+}
+#skills{
+  background-color:#b7d68f;
+}
+#contact{
+  background-color:white;
+}
+footer{
+  color: white;
+}
+i{
+  padding: 5px;
+}
+.white-text{
+  color: white;
+}
+.full{
+  width:100%;
+}
+.image{
+  max-width: 270px;
+  max-height: 150px;
+}
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#not_nav {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#not_nav:before {
+  content: ">_";
+  padding-right: 5px;
+}
+
+.links{
+  padding: 0.5em;
+  text-decoration-color: white !important;
+  color:white;
+}
+.links:hover{
+  /*color:  #804415 !important; */
+}
+.links:action{
+  /* color:  #804415 !important; */
+}
+.links:active{
+  color: white !important;
+}
+.links:link{
+  text-decoration: none;
+  color:white;
+}
+/*
+footer{
+  margin-bottom: -40px;
+}
+h5 {
+  padding: 0.5px;
+}
+body{
+  background-color: darkgray;
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally.
+  justify-content: center;
+
+  /* This centers our sketch vertically.
+  align-items: center;
+
+}
+a{
+  text-decoration: none !important;
+}
+#work {
+  background-color: #df6d04;
+}
+#contact {
+  background-color: #b7d68f;
+}
+footer{
+  background-color: #000000;
+  color: #ffffff;
+}
+.terminal{
+  padding: 0.5em;
+  color:   #ffffff !important;
+}
+.terminal:hover{
+  color:  #ebd8c4 !important;
+}
+.terminal:link{
+  text-decoration: none;
+}
+footer{
+  margin-bottom: -40px;
+}
+*/
