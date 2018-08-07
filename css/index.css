@@ -30,15 +30,16 @@ a:link{
 .black{
   background-color: black;
 }
-#information {
+#head {
    background-image: url("https://www.publicdomainpictures.net/pictures/80000/velka/leaves-1394157252hwc.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover !important;
+   background-attachment: fixed;
   background-color: #f5b11e;
   opacity: 0.45;
   height:100vh;
-  color:white;
+  color:black;
   padding: 0;
 }
 #about{
@@ -85,6 +86,7 @@ ul {
 #not_nav {
   padding-left: 1em;
   text-indent: -1em;
+  color:black;
 }
 
 #not_nav:before {
@@ -95,10 +97,10 @@ ul {
 .links{
   padding: 0.5em;
   text-decoration-color: white !important;
-  color:white;
+  color:black;
 }
 .links:hover{
-  /*color:  #804415 !important; */
+  color:  white !important;
 }
 .links:action{
   /* color:  #804415 !important; */
@@ -109,6 +111,14 @@ ul {
 .links:link{
   text-decoration: none;
   color:white;
+}
+.btn{
+  border-color: #004d00;
+  background-color: white;
+  color:black;
+}
+#thumbnail{
+  color:black;
 }
 /*
 footer{
