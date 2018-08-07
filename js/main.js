@@ -1,8 +1,7 @@
-//let node = require('node');
-//let fs = require('fs');
+const fs = require('fs');
 
-//var resume = JSON.parse(fs.readFileSync('resume.json','utf8'));
-var resume = JSON.parse('{"name": "Mohammad Nadeem","lnkdin": "https://www.linkedin.com/in/mnad16","github": "https://github.com/mnadev","email": "mohammednadeem902@gmail.com"}');
+var resume = JSON.parse(fs.readFileSync('../res/resume.json','utf8'));
+//var resume = JSON.parse('{"name": "Mohammad Nadeem","lnkdin": "https://www.linkedin.com/in/mnad16","github": "https://github.com/mnadev","email": "mohammednadeem902@gmail.com"}');
 // just getting all info from JSON
 let name = resume.name;
 let lnkdinURL = resume.lnkdin;

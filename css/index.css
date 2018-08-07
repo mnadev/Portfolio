@@ -18,6 +18,7 @@ a:hover{
 }
 a:link{
   text-decoration: none;
+  color:black;
 }
 .info{
   padding-top: 0;
@@ -96,21 +97,20 @@ ul {
 
 .links{
   padding: 0.5em;
-  text-decoration-color: white !important;
-  color:black;
+  color: black !important;
+}
+.links:link{
+  text-decoration: none;
+  color: black !important;
 }
 .links:hover{
   color:  white !important;
 }
-.links:action{
-  /* color:  #804415 !important; */
+.links:visited{
+   color:  black !important;
 }
 .links:active{
   color: white !important;
-}
-.links:link{
-  text-decoration: none;
-  color:white;
 }
 .btn{
   border-color: #004d00;
