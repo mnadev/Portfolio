@@ -94,7 +94,31 @@ ul {
   content: ">_";
   padding-right: 5px;
 }
-
+#res_link{
+  padding: 0.5em;
+  color: black !important;
+}
+.navItem{
+  padding: 0.5em;
+  color: white !important;
+}
+.navItem:link {
+  text-decoration: none;
+  color: white !important;
+}
+#res_link:link{
+  text-decoration: none;
+  color: black !important;
+}
+#res_link:hover, .navItem:hover{
+  color:  #a4ea18 !important;
+}
+#res_link:visited, .navItem:visited{
+   color:  black !important;
+}
+#res_link:active, .navItem:active{
+  color: #a4ea18 !important;
+}
 .links{
   padding: 0.5em;
   color: black !important;
@@ -117,8 +141,21 @@ ul {
   background-color: white;
   color:black;
 }
-#thumbnail{
+.thumbnail{
   color:black;
+}
+.thumbnail:link{
+  text-decoration: none;
+  color: black !important;
+}
+.thumbnail:hover{
+  color:  #a4ea18 !important;
+}
+.thumbnail:visited{
+   color:  black !important;
+}
+.thumbnail:active{
+  color: #a4ea18 !important;
 }
 /*
 footer{

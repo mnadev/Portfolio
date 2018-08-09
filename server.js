@@ -12,7 +12,7 @@ const mainJS = fs.readFileSync('js/main.js');
 const resumePDF = fs.readFileSync('res/mnadresume.pdf');
 const resumeJSON = fs.readFileSync('res/resume.json');
 
-const terminalHTML = fs.readFileSync('html/terminal.html');
+const terminalHTML = fs.readFileSync('terminal.html');
 const xtermCSS = fs.readFileSync('node_modules/xterm/dist/xterm.css');
 const xtermJS = fs.readFileSync('node_modules/xterm/dist/xterm.js');
 const termJS = fs.readFileSync('js/term_portfolio.js');
@@ -32,7 +32,7 @@ const server = http.createServer( (req,res) => {
       res.write(mainJS);
       res.end();
       break;
-    case '/html/terminal.html':
+    case '/terminal.html':
       console.log(req.url + "sent");
       res.writeHead(200, 'Content-Type','text/html');
       res.write(terminalHTML);
