@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  font-family: 'Ubuntu Mono', monospace;
+}
+#terminal{
+  border: 10px solid black;
+  border-radius: 10px 10px;
+  height:60vh !important;
+}
+#changer{
+  padding-left: 2vh;
+  font-size: 3.5vh;
+  border: 10px solid #772953;
+  border-radius: 10px 10px;
+  background-color: #e95420;
+  height:40vh !important;
+  color: white;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+  color: white !important;
+}
+a:hover{
+  color:  black !important;
+}
+a:visited{
+   color:  white !important;
+}
+a:active{
+  color: black !important;
+}
