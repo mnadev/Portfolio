@@ -119,18 +119,24 @@ term.on('key', (key, ev) => {
           command = "";
         } else {
 
-        if((key.charCodeAt(0) >= 65 && key.charCodeAt(0) <= 90) ||
-    (key.charCodeAt(0) >= 97 && key.charCodeAt(0) <= 122) || key.charCodeAt(0) == 32) {
-        if(!(key == command.substring(command.length - 1))) {
-         command += key;
-         term.write(key);
-        }
-      }
-});
 
-term.textarea.onkeypress = function (e) {
-  if((e.keyCode >= 65 && e.keyCode <= 90) ||
-  (e.keyCode >= 97 && e.keyCode <= 122) || key.charCodeAt(0) == 32) {
-   term.write(String.fromCharCode(e.keyCode));
-  }
+            if((key.charCodeAt(0) >= 65 && key.charCodeAt(0) <= 90) ||
+               (key.charCodeAt(0) >= 97 && key.charCodeAt(0) <= 122) ||
+                key.charCodeAt(0) == 32) {
+                  command += key;
+            }
+
+            term.write(key);
+
+          }
+        });
+
+      term.textarea.onkeypress = function (e) {
+        if( (e.keyCode >= 65 && e.keyCode <= 90) ||
+            (e.keyCode >= 97 && e.keyCode <= 122) ||
+             key.charCodeAt(0) == 32) {
+
+             term.write(String.fromCharCode(e.keyCode));
+
+        }
 }
