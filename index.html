@@ -501,21 +501,56 @@
 						Or fill out the form.
 					</div>
 
-					<form class="form-group" action="">
+					<form class="form-group" action="" name="submit-to-google-sheet">
 						<label class="col-form-label">Name:</label>
-						<input type="text" class="form-control" name = "name"><br/>
+						<input type="text" class="form-control" id = "name" name = "name"><br/>
 
 						<label class="col-form-label">Email:</label>
-						<input type="text" class="form-control" name = "email"><br/>
+						<input type="text" class="form-control" id = "email" name = "email"><br/>
 
 						<label class="col-form-label">Subject:</label>
-						<input type="text" class="form-control" name = "subject"><br/>
+						<input type="text" class="form-control" id = "subject" name = "subject"><br/>
 
 						<label class="col-form-label">Message:</label>
-						<input type="text" class="form-control" name = "message"><br/>
+						<input type="text" class="form-control" id = "message" name = "message"><br/>
 
-						<input type="submit" value="Submit" class="btn btn-success">
+						<button id="submit" class="btn btn-success">Submit</button>
 					</form>
+
+					<!-- Comment out when we use a server instead -->
+					<script>
+					  const scriptURL = 'https://script.google.com/macros/s/AKfycby-czoCvVr8gTXeg0fnMKq7WASSEVzyM3mzrerf81lfBYbcCKVp/exec'
+					  const form = document.forms['submit-to-google-sheet']
+
+					  form.addEventListener('submit', e => {
+					   e.preventDefault()
+					   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+					     .then(response => console.log('Success!', response))
+					     .catch(error => console.error('Error!', error.message))
+					  })
+						// $(document).ready(function(){
+    				// 	var email,name,subject,mess;
+    				// 	$("#submit").click(function(){
+						//
+						// 		name = $("#name").val();
+						//
+						// 		email = $("#email").val();
+						// 		subject = $("#subject").val();
+						//
+						// 		mess = $("#message").val();
+						//
+						// 		$.get("http://localhost:3000/send",{
+						// 			to:"mohammednadeem902@gmail.com",
+						// 			subject: subject,
+						// 			text: name + "\n" + email + "\n" + mess
+						// 		}, function(data){
+						//
+						// 		if(data=="sent"){
+	          //   			console.log("Sent")
+						// 			});
+						// 		});
+						// 	});
+					</script>
 				</div>
 			</div>
 	</div>
