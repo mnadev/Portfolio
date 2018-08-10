@@ -121,9 +121,10 @@ term.on('key', (key, ev) => {
 
         if((key.charCodeAt(0) >= 65 && key.charCodeAt(0) <= 90) ||
     (key.charCodeAt(0) >= 97 && key.charCodeAt(0) <= 122) || key.charCodeAt(0) == 32) {
+        if(!(key == command.substring(command.length - 1))) {
          command += key;
+         term.write(key);
         }
-        term.write(key);
       }
 });
 
