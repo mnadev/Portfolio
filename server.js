@@ -8,6 +8,8 @@ const hostname = '127.0.0.1';
 const httpsPort = 443;
 const httpPort = 80;
 
+const email = fs.readFileSync('config.txt', "utf8");
+
 const mainHTML = fs.readFileSync('index.html');
 const mainCSS = fs.readFileSync('css/index.css');
 const mainJS = fs.readFileSync('js/main.js');
@@ -84,17 +86,20 @@ app.listen(
 ));
 
 app.post('*', function(req, res) {
+
+  let emailInfo = email.split(" ");
+
   let transporter = mailer.createTransport({
     host:'gmail',
     auth: {
-      user: 'ksfnksfn',
-      pass: 'skjdnsd'
+      user: email[0],
+      pass: email[1]
     }
   });
 
   let outMail = {
-    from: email,
-    to: 'mohammednadeem902@gmail.com',
+    from: email[0],
+    to: email[0],
     subject: req.body.subject,
     text: "From" + req.body.email + " with name: " + req.body.name + "\n" + req.body.message
   }
