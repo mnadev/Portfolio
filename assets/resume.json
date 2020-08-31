@@ -28,12 +28,12 @@
       {
          "network":"LinkedIn",
          "url":"https://linkedin.com/in/mnad16",
-         "fa": "fa-linkedin"
+         "fa":"fa-linkedin"
       },
       {
          "network":"Github",
          "url":"https://github.com/mnadev",
-         "fa": "fa-github-square"
+         "fa":"fa-github-square"
       }
    ],
    "work":[
@@ -108,7 +108,7 @@
       {
          "institution":"Rutgers, the State University of New Jersey",
          "area":"Double Major in Electrical and Computer Engineering and Computer Science, Minor in Mathematics",
-         "studyType":"Bachelor of Science (magna cum laude) ",
+         "studyType":"Bachelor of Science (Summa Cum Laude) ",
          "startDate":"Sep 2016",
          "endDate":"May 2020",
          "gpa":"3.8",
@@ -145,229 +145,257 @@
       }
    ],
    "projects":[
-      {
-         "name":"Object Classification with Wi-Fi (Capstone Design Project)",
-         "type":"software",
-         "date":"May 2020",
-         "tech": [
-            {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }, {
-               "name": "Linux",
-               "fa": "fab fa-linux fa-2x"
-            }
-         ],
-         "description":[
-            "Leveraged the Atheros CSI tool for Ubuntu Linux to extract Channel State Information (CSI) from wifi packets to classify objects",
-            "Designed and conducted experiments to collect data to use in object classification",
-            "Created a networking application to allow synchronization between transmitter and receiver",
-            "Created a GUI application using PyQt to allow ease of classification",
-            "Created a server to enable live classification of the object based on the CSI information recieved"
-         ],
-         "link":[],
-         "paper_link":"none"
-      }, {
-         "name":"AUVKit",
-         "type":"software",
-         "date":"Mar 2020",
-         "tech": [
-            {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }
-         ],
-         "description":[
-            "Designed AUVKit, a Python library for communicating, controlling and writing apps for AUVs",
-            "Goals were to reduce development time for autonomous missions and fix system issues regarding data fetching, while improving performance"
-         ],
-         "link":[
-            "https://github.com/mnadev/auvkit"
-         ],
-         "paper_link":"none"
-      },
-      {
-         "name":"Distributed File System",
-         "type":"software",
-         "date":"Mar 2020",
-         "tech": [
-            {
-               "name": "Java",
-               "fa": "fab fa-java fa-2x"
-            }
-         ],
-         "description":[
-            "Created a distributed, replicated file system similar to the Google File System for CS 417 (Disributed Systems)",
-            "Used Java RPC libraries to implement the distributed nodes",
-            "Created a user facing command line interface to put, get and delete files"
-         ],
-         "link":[
-            
-         ],
-         "paper_link":"none"
-      }, {
-         "name":"Neural Network Hardware Accelerator",
-         "type":"linked",
-         "date":"Dec 2019",
-         "tech": [
-            {
-               "name": "Verilog",
-               "fa": ""
-            }
-         ],
-         "description":[
-            "Designed a neural network layer in Verilog to accelerate computational tasks for neural network"
-         ],
-         "link":[
-            "github here"
-         ],
-         "paper_link":"verilog_nn_layer.pdf"
-      },
-      {
-         "name":"Distributed Adaptive Sampling",
-         "type":"linked",
-         "date":"Jul 2019",
-         "tech": [
-            {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }
-         ],
-         "description":[
-            "Designed and implemented a distributed adaptive sampling algorithm for networked autonomous underwater vehicles to reduce energy and time consumption."
-         ],
-         "link":[
-            
-         ],
-         "paper_link":"dist_sampling_2019.pdf"
-      },
-      {
-         "name":"Smart Lock",
-         "type":"software",
-         "date":"Jan 2019",
-         "tech": [
-            {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }, {
-               "name": "JavaScript",
-               "fa": "fab fa-js fa-2x"
-            }, {
-               "name": "HTML",
-               "fa": "fab fa-html5 fa-2x"
-            }, {
-               "name": "CSS",
-               "fa": "fab fa-css3 fa-2x"
-            }
-         ],
-         "description":[
-            "Designed an entire smart lock platform and architecture with a team of 10 people",
-            "Worked with a team member to create a web client and server for streaming video from a Raspberry Pi using Websockets",
-            "Used Google Maps API to visualize reported data about suspicious activity",
-            "Worked with a team member to create a REST API server using Django"
-         ],
-         "link":[
-            "https://github.com/software-engineering-s19-group10/sms_and_srn_network",
-            "https://github.com/software-engineering-s19-group10/streaming",
-            "https://github.com/software-engineering-s19-group10/smart-lock-backend"
-         ],
-         "paper_link":"none"
-      },
-      {
-         "name":"RU BUSEE (in progress)",
-         "type":"software",
-         "date":"Jan 2019",
-         "tech": [
-            {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }, {
-               "name": "Flutter",
-               "fa": ""
-            }, {
-               "name": "Dart",
-               "fa": ""
-            }, {
-               "name": "Flask",
-               "fa": ""
-            }
-         ],
-         "description":[
-            "Design and develop an API to predict Rutgers bus timings using TransLoc API",
-            "Use a custom algorithm that allowed for more advanced features such as detecting bus delays using previous data",
-            "Create a Flutter mobile application for users to access data"
-         ],
-         "link":[
-            "https://github.com/mnadev/RU-BUSEE"
-         ],
-         "paper_link":"none"
-      }, {
-         "name": "Photos",
-         "type":"software",
-         "date":"Apr 2018",
-         "tech": [
-            {
-               "name": "Java",
-               "fa": "fab fa-java fa-2x"
-            }, {
-               "name": "Android",
-               "fa": "fab fa-android fa-2x"
-            }
-         ],
-         "description":[
-            "Created an Android app in which the user can create albums, add photos to albums, view photos, and add and search tags for Software Methodology.",
-            "Also implemented in JavaFX as well. Used an extensive amount of data structures and algorithms knowledge to create the database feature."
-         ],
-         "link":[
-         ],
-         "paper_link":"none"
-      }, {
-         "name": "RU BUS",
-         "type":"software",
-         "date":"Jun 2017",
-         "tech": [
-            {
-               "name": "JavaScript",
-               "fa": "fab fa-js fa-2x"
-            }
-         ],
-         "description":[
-            "Created a Pebble Watch app to show Rutgers bus timings using Nextbus API and Pebble.js"
-         ],
-         "link":[
-            "https://github.com/mnadev/RUBus"
-         ],
-         "paper_link":"none"
-      }
+      [
+         {
+            "name":"Object Classification with Wi-Fi (Capstone Design Project)",
+            "type":"software",
+            "date":"May 2020",
+            "tech":[
+               {
+                  "name":"Python",
+                  "fa":"fab fa-python fa-2x"
+               },
+               {
+                  "name":"Linux",
+                  "fa":"fab fa-linux fa-2x"
+               }
+            ],
+            "description":[
+               "Leveraged the Atheros CSI tool for Ubuntu Linux to extract Channel State Information (CSI) from wifi packets to classify objects",
+               "Designed and conducted experiments to collect data to use in object classification",
+               "Created a networking application to allow synchronization between transmitter and receiver",
+               "Created a GUI application using PyQt to allow ease of classification",
+               "Created a server to enable live classification of the object based on the CSI information recieved"
+            ],
+            "link":[
+               
+            ],
+            "paper_link":"none"
+         },
+         {
+            "name":"AUVKit",
+            "type":"software",
+            "date":"Mar 2020",
+            "tech":[
+               {
+                  "name":"Python",
+                  "fa":"fab fa-python fa-2x"
+               }
+            ],
+            "description":[
+               "Designed AUVKit, a Python library for communicating, controlling and writing apps for AUVs",
+               "Goals were to reduce development time for autonomous missions and fix system issues regarding data fetching, while improving performance"
+            ],
+            "link":[
+               "https://github.com/mnadev/auvkit"
+            ],
+            "paper_link":"none"
+         },
+         {
+            "name":"Distributed File System",
+            "type":"software",
+            "date":"Mar 2020",
+            "tech":[
+               {
+                  "name":"Java",
+                  "fa":"fab fa-java fa-2x"
+               }
+            ],
+            "description":[
+               "Created a distributed, replicated file system similar to the Google File System for CS 417 (Disributed Systems)",
+               "Used Java RPC libraries to implement the distributed nodes",
+               "Created a user facing command line interface to put, get and delete files"
+            ],
+            "link":[
+               
+            ],
+            "paper_link":"none"
+         }
+      ],
+      [
+         {
+            "name":"Neural Network Hardware Accelerator",
+            "type":"linked",
+            "date":"Dec 2019",
+            "tech":[
+               {
+                  "name":"Verilog",
+                  "fa":""
+               }
+            ],
+            "description":[
+               "Designed a neural network layer in Verilog to accelerate computational tasks for neural network"
+            ],
+            "link":[
+               "github here"
+            ],
+            "paper_link":"verilog_nn_layer.pdf"
+         },
+         {
+            "name":"Distributed Adaptive Sampling",
+            "type":"linked",
+            "date":"Jul 2019",
+            "tech":[
+               {
+                  "name":"Python",
+                  "fa":"fab fa-python fa-2x"
+               }
+            ],
+            "description":[
+               "Designed and implemented a distributed adaptive sampling algorithm for networked autonomous underwater vehicles to reduce energy and time consumption."
+            ],
+            "link":[
+               
+            ],
+            "paper_link":"dist_sampling_2019.pdf"
+         },
+         {
+            "name":"Smart Lock",
+            "type":"software",
+            "date":"Jan 2019",
+            "tech":[
+               {
+                  "name":"Python",
+                  "fa":"fab fa-python fa-2x"
+               },
+               {
+                  "name":"JavaScript",
+                  "fa":"fab fa-js fa-2x"
+               },
+               {
+                  "name":"HTML",
+                  "fa":"fab fa-html5 fa-2x"
+               },
+               {
+                  "name":"CSS",
+                  "fa":"fab fa-css3 fa-2x"
+               }
+            ],
+            "description":[
+               "Designed an entire smart lock platform and architecture with a team of 10 people",
+               "Worked with a team member to create a web client and server for streaming video from a Raspberry Pi using Websockets",
+               "Used Google Maps API to visualize reported data about suspicious activity",
+               "Worked with a team member to create a REST API server using Django"
+            ],
+            "link":[
+               "https://github.com/software-engineering-s19-group10/sms_and_srn_network",
+               "https://github.com/software-engineering-s19-group10/streaming",
+               "https://github.com/software-engineering-s19-group10/smart-lock-backend"
+            ],
+            "paper_link":"none"
+         }
+      ],
+      [
+         {
+            "name":"RU BUSEE (in progress)",
+            "type":"software",
+            "date":"Jan 2019",
+            "tech":[
+               {
+                  "name":"Python",
+                  "fa":"fab fa-python fa-2x"
+               },
+               {
+                  "name":"Flutter",
+                  "fa":""
+               },
+               {
+                  "name":"Dart",
+                  "fa":""
+               },
+               {
+                  "name":"Flask",
+                  "fa":""
+               }
+            ],
+            "description":[
+               "Design and develop an API to predict Rutgers bus timings using TransLoc API",
+               "Use a custom algorithm that allowed for more advanced features such as detecting bus delays using previous data",
+               "Create a Flutter mobile application for users to access data"
+            ],
+            "link":[
+               "https://github.com/mnadev/RU-BUSEE"
+            ],
+            "paper_link":"none"
+         },
+         {
+            "name":"Photos",
+            "type":"software",
+            "date":"Apr 2018",
+            "tech":[
+               {
+                  "name":"Java",
+                  "fa":"fab fa-java fa-2x"
+               },
+               {
+                  "name":"Android",
+                  "fa":"fab fa-android fa-2x"
+               }
+            ],
+            "description":[
+               "Created an Android app in which the user can create albums, add photos to albums, view photos, and add and search tags for Software Methodology.",
+               "Also implemented in JavaFX as well. Used an extensive amount of data structures and algorithms knowledge to create the database feature."
+            ],
+            "link":[
+               
+            ],
+            "paper_link":"none"
+         },
+         {
+            "name":"RU BUS",
+            "type":"software",
+            "date":"Jun 2017",
+            "tech":[
+               {
+                  "name":"JavaScript",
+                  "fa":"fab fa-js fa-2x"
+               }
+            ],
+            "description":[
+               "Created a Pebble Watch app to show Rutgers bus timings using Nextbus API and Pebble.js"
+            ],
+            "link":[
+               "https://github.com/mnadev/RUBus"
+            ],
+            "paper_link":"none"
+         }
+      ]
    ],
    "skills":[
       {
          "name":"Known Technical Languages",
          "keywords":[
             {
-               "name": "Python",
-               "fa": "fab fa-python fa-2x"
-            }, {
-               "name": "JavaScript",
-               "fa": "fab fa-js fa-2x"
-            }, {
-               "name": "Java",
-               "fa": "fab fa-java fa-2x"
-            }, {
-               "name": "C",
-               "fa": ""
-            }, {
-               "name": "MATLAB",
-               "fa": ""
-            }, {
-               "name": "Typescript",
-               "fa": ""
-            }, {
-               "name": "Dart",
-               "fa": ""
-            }, {
-               "name": "System Verilog",
-               "fa": ""
+               "name":"Python",
+               "fa":"fab fa-python fa-2x"
+            },
+            {
+               "name":"JavaScript",
+               "fa":"fab fa-js fa-2x"
+            },
+            {
+               "name":"Java",
+               "fa":"fab fa-java fa-2x"
+            },
+            {
+               "name":"C",
+               "fa":""
+            },
+            {
+               "name":"MATLAB",
+               "fa":""
+            },
+            {
+               "name":"Typescript",
+               "fa":""
+            },
+            {
+               "name":"Dart",
+               "fa":""
+            },
+            {
+               "name":"System Verilog",
+               "fa":""
             }
          ]
       },
@@ -375,23 +403,28 @@
          "name":"Technologies",
          "keywords":[
             {
-               "name": "Git",
-               "fa": "fab fa-git fa-2x"
-            }, {
-               "name": "HTML",
-               "fa": "fab fa-html5 fa-2x"
-            }, {
-               "name": "CSS",
-               "fa": "fab fa-css3 fa-2x"
-            }, {
-               "name": "LaTeX",
-               "fa": ""
-            }, {
-               "name": "Angular",
-               "fa": ""
-            }, {
-               "name": "Flutter",
-               "fa": ""
+               "name":"Git",
+               "fa":"fab fa-git fa-2x"
+            },
+            {
+               "name":"HTML",
+               "fa":"fab fa-html5 fa-2x"
+            },
+            {
+               "name":"CSS",
+               "fa":"fab fa-css3 fa-2x"
+            },
+            {
+               "name":"LaTeX",
+               "fa":""
+            },
+            {
+               "name":"Angular",
+               "fa":""
+            },
+            {
+               "name":"Flutter",
+               "fa":""
             }
          ]
       }
